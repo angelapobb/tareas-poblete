@@ -8,8 +8,6 @@ Puedes acceder a mi Currículum Vitae digital en el siguiente enlace:
 
 [Currículum de Angela Poblete](https://angelapobb.github.io/tareas-poblete/)
 
-<<<<<<< HEAD
-=======
 ## Estructura del Proyecto y Proceso de Desarrollo
 
 A continuación, se detallan los pasos y decisiones tomadas durante el desarrollo de este proyecto:
