@@ -8,8 +8,6 @@ Puedes acceder a mi Currículum Vitae digital en el siguiente enlace:
 
 [Currículum de Angela Poblete](https://angelapobb.github.io/tareas-poblete/)
 
-<<<<<<< HEAD
-=======
 ## Estructura del Proyecto y Proceso de Desarrollo
 
 A continuación, se detallan los pasos y decisiones tomadas durante el desarrollo de este proyecto:
@@ -34,7 +32,6 @@ A continuación, se detallan los pasos y decisiones tomadas durante el desarroll
    - Subí el archivo `index.html` y otros recursos necesarios al repositorio en GitHub.
    - Configuré GitHub Pages desde la rama principal (root) para publicar el sitio web y verificar que esté accesible desde el enlace mencionado.
 
->>>>>>> 495082e3908fc33c32f418fba6c06a1e1ffbdc22
 ## Estructura del Proyecto
 
 El proyecto se compone de los siguientes archivos:
