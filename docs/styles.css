@@ -1,0 +1,105 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #ffe6f0;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Contenedor principal */
+.resume {
+    display: flex;
+    max-width: 800px;
+    margin: 50px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+}
+
+/* Sección izquierda */
+.resume_left {
+    width: 35%;
+    background: #ff99cc;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.resume_left img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.resume_left h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.resume_left p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.resume_left .contact-info h3 {
+    margin: 20px 0 10px;
+    font-size: 18px;
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+}
+
+.resume_left .contact-info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.resume_left .contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Sección derecha */
+.resume_right {
+    width: 65%;
+    padding: 20px;
+    color: #333;
+}
+
+.resume_right h3 {
+    font-size: 20px;
+    color: #ff66a3;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ff66a3;
+    display: inline-block;
+}
+
+.resume_right p {
+    margin-bottom: 15px;
+}
+
+.resume_right ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.resume_right ul li {
+    margin-bottom: 15px;
+}
+
+.resume_right ul li strong {
+    font-size: 18px;
+    color: #ff66a3;
+}
+
+.resume_right ul li p {
+    margin: 5px 0 0 15px;
+    color: #666;
+}
