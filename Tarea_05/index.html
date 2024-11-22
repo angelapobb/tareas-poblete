@@ -7,71 +7,124 @@
     <meta name="description" content="Currículum Vitae de Angela Poblete">
     <title>Currículum de Angela Poblete</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Currículum Vitae</h1>
-    </header>
-    <div class="container">
+    <div class="resume">
         <!-- Sección Izquierda -->
-        <div class="left-section">
-            <div class="profile">
+        <div class="resume_left">
+            <div class="resume_profile">
                 <img src="Foto_angela.jpg" alt="Foto de Angela Poblete">
             </div>
-            <h2>Angela Poblete</h2>
-            <p>Periodista</p>
-            <div class="contact-info">
-                <h3>Contacto</h3>
-                <p>Santiago, Chile</p>
-                <p>+569 6171 9357</p>
-                <p><a href="mailto:angela.poblete@uc.cl">angela.poblete@uc.cl</a></p>
-                <p><a href="https://linkedin.com/in/angela-poblete" target="_blank">LinkedIn</a></p>
-            </div>
-            <div class="skills">
-                <h3>Habilidades</h3>
-                <ul>
-                    <li>Inglés: C1</li>
-                    <li>Adobe Premiere: Avanzado</li>
-                    <li>Python: Intermedio</li>
-                </ul>
+            <div class="resume_content">
+                <div class="resume_item resume_info">
+                    <div class="title">
+                        <p class="bold">Angela Poblete</p>
+                        <p class="regular">Periodista</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="icon">
+                                <i class="fas fa-map-signs"></i>
+                            </div>
+                            <div class="data">
+                                Santiago, Chile
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="data">
+                                +569 6171 9357
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="data">
+                                <a href="mailto:angela.poblete@uc.cl">angela.poblete@uc.cl</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="data">
+                                <a href="https://linkedin.com/in/angela-poblete" target="_blank">LinkedIn</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="resume_item resume_skills">
+                    <div class="title">
+                        <p class="bold">Habilidades</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="skill_name">Inglés</div>
+                            <div class="skill_progress"><span style="width: 90%;"></span></div>
+                            <div class="skill_per">C1</div>
+                        </li>
+                        <li>
+                            <div class="skill_name">Adobe Premiere</div>
+                            <div class="skill_progress"><span style="width: 80%;"></span></div>
+                            <div class="skill_per">Avanzado</div>
+                        </li>
+                        <li>
+                            <div class="skill_name">Python</div>
+                            <div class="skill_progress"><span style="width: 60%;"></span></div>
+                            <div class="skill_per">Intermedio</div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
         <!-- Sección Derecha -->
-        <div class="right-section">
-            <div class="about">
-                <h3>Sobre mí</h3>
-                <p>Periodista especializada en análisis y cobertura de eventos deportivos, con experiencia en programas de radio, comentarios post-partido y gestión de redes sociales.</p>
+        <div class="resume_right">
+            <div class="resume_item resume_about">
+                <div class="title">
+                    <p class="bold">Sobre mí</p>
+                </div>
+                <p>Periodista especializada en análisis y cobertura de eventos deportivos. Experiencia en radio, comentarios post-partido y gestión de redes sociales.</p>
             </div>
-            <div class="experience">
-                <h3>Experiencia Laboral</h3>
+            <div class="resume_item resume_work">
+                <div class="title">
+                    <p class="bold">Experiencia Laboral</p>
+                </div>
                 <ul>
                     <li>
-                        <strong>Mayo 2023 - Presente</strong>
-                        <p>Analista Deportivo - Unión Española</p>
-                        <p>Estudio de tácticas, comentarios en vivo y gestión de redes sociales.</p>
+                        <div class="date">Mayo 2023 - Presente</div>
+                        <div class="info">
+                            <p class="semi-bold">Analista Deportivo - Unión Española</p>
+                            <p>Estudio de tácticas, comentarios en vivo y gestión de redes sociales.</p>
+                        </div>
                     </li>
                     <li>
-                        <strong>Enero 2022 - Presente</strong>
-                        <p>Community Manager - Tostaduría Mataquito</p>
-                        <p>Gestión de redes sociales, redacción y atención al cliente.</p>
+                        <div class="date">Enero 2022 - Presente</div>
+                        <div class="info">
+                            <p class="semi-bold">Community Manager - Tostaduría Mataquito</p>
+                            <p>Gestión de redes sociales, redacción y atención al cliente.</p>
+                        </div>
                     </li>
                 </ul>
             </div>
-            <div class="education">
-                <h3>Formación Académica</h3>
+            <div class="resume_item resume_education">
+                <div class="title">
+                    <p class="bold">Formación Académica</p>
+                </div>
                 <ul>
                     <li>
-                        <strong>Marzo 2021 - Presente</strong>
-                        <p>Pontificia Universidad Católica de Chile</p>
-                        <p>Licenciatura en Periodismo</p>
+                        <div class="date">Marzo 2021 - Presente</div>
+                        <div class="info">
+                            <p class="semi-bold">Pontificia Universidad Católica de Chile</p>
+                            <p>Licenciatura en Periodismo</p>
+                        </div>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-    <footer>
-        <p>&copy; 2024 Angela Poblete</p>
-    </footer>
 </body>
 </html>
