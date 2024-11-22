@@ -1,50 +1,75 @@
 body {
-    font-family: "Montserrat", sans-serif;
-    background: #f4f4f4;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #ffe6f2;
+    color: #333;
 }
 
-.resume {
+.container {
     display: flex;
-    max-width: 900px;
+    flex-direction: row;
     margin: 20px auto;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
     overflow: hidden;
 }
 
-.resume_left {
-    background: #007BFF;
+.left-column {
+    background-color: #ff99cc;
     color: white;
-    width: 30%;
     padding: 20px;
     text-align: center;
+    width: 30%;
 }
 
-.resume_profile img {
+.left-column img {
     width: 100px;
+    height: 100px;
     border-radius: 50%;
     margin-bottom: 20px;
 }
 
-.resume_right {
-    width: 70%;
-    padding: 20px;
+.left-column a {
+    color: white;
+    text-decoration: none;
 }
 
-.title .bold {
-    color: #007BFF;
+.left-column a:hover {
+    text-decoration: underline;
+}
+
+.right-column {
+    background-color: #fff;
+    padding: 20px;
+    width: 70%;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    color: #ff6699;
+    border-bottom: 2px solid #ff6699;
+    padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
-.resume_item ul {
+.section ul {
     list-style: none;
     padding: 0;
 }
 
-.resume_item ul li {
+.section ul li {
     margin-bottom: 15px;
 }
 
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #ff99cc;
+    color: white;
+    font-size: 14px;
+}
