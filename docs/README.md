@@ -1,4 +1,4 @@
-# README - Currículum Vitae Digital
+# Currículum Vitae Digital
 
 ## Proceso de Creación
 
